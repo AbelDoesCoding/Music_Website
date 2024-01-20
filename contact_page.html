@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="stylesheet.css">
-    <title>ABEL IS COOL!</title>
+    <title> Say hi to Abel!</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -22,15 +22,14 @@
 
     <div class="header-container">
         <div class="header-items">
-            <h1> Abel Francis Beatty</h1>
+            <h1> Say Hi To Abel !</h1>
 
         </div>
     </div>
 
     <div class="menu-container">
         <div class="menu-items">
-            <a href="contact_page.html">
-            <button id="contact-button"> Contact </button></a>
+            <button id="home-button"> Home </button>
             <button id="music-button"> Music </button>
             <button id="shows-button"> Shows </button>
             <button id="merch-button"> Merch (as if)</button>
@@ -39,17 +38,23 @@
 
     <div class="bio-container">
         <div class="bio-section-items">
-            <img id="bio-pic" src="profilepic.jpeg" alt="pencil drawing of Abel">
+            <img id="bio-pic" src="contact_photo.jpg" alt="pencil drawing of Abel">
 
             <div class="bio-description">
-                <h2>Tunes ! Tunes !</h2>
-                <p> Filler paragraph ! Things and stuff. Stuff Stuff Stuff
-                    and guess what ! more !!!!!!!!!!!!!! <br> <br>
-                    Oh man!!! Things and stuff will be here <br> <br>
-                    You better believe !!! there will be soooo many things. AND. And.
-                    STUFFFF. <br> <br>
-                    Right! Here!
-                </p>
+                <h2>Contact:</h2>
+                <form>
+                    <label for="name"> Name: </label> 
+                    <input type="text" id="name"> <br>
+                    <label type="email" id="email"> Email: </label> 
+                    <input type="text" id="email"> <br>
+                    Wanna sign up for my cool email list?? <br>
+                    <input type="radio" id="yesList" name="yesOrNo" value="yes"> 
+                    <label for="yes">Yes !!</label> <br>
+                    <input type="radio" id="noList" name="yesOrNo" value="no"> 
+                    <label for="no">No ):</label> <br>
+
+
+                </form>
             </div>
         </div> 
     </div>
@@ -58,4 +63,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
