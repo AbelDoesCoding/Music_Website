@@ -30,6 +30,12 @@ homeButton.addEventListener("mouseout", () => {
     homeButton.style.background = 'rgb(193, 167, 203)';
 });
 
+// Changing profile pic on click
+var bioPic = document.querySelector('#bio-pic');
+bioPic.addEventListener('click', () => {
+    bioPic.src="modifiedcontactbio.png";
+})
+
 // Form submit functions
 var emailCorrect = false;
 
@@ -46,4 +52,6 @@ submitButton.addEventListener("click", () => {
         // eventually use this part of function to block sending form info if false
     }
 })
+
+
 
