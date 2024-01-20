@@ -4,9 +4,21 @@
     padding: 10;
 }
 
+img {
+    width: 30px;
+}
 body {
     background-image: url("background-banner.png");
   }
+
+.links-container {
+    display: flex;
+}
+.links-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 1800px;
+}
 
 .header-container {
     display: flex;
