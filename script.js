@@ -1,6 +1,6 @@
-const bioButton = document.querySelector("#bio-button");
-bioButton.addEventListener("mouseover", () => {
-    bioButton.style.background = '#B02851';
+const contactButton = document.querySelector("#contact-button");
+contactButton.addEventListener("mouseover", () => {
+    contactButton.style.background = '#B02851';
 })
 bioButton.addEventListener("mouseout", () => {
     bioButton.style.background = 'rgb(193, 167, 203)';
