@@ -28,12 +28,12 @@ body {
     flex-wrap: wrap;
 }
 .menu-items {
-    border: 2px purple solid;
+    
     width: 600px;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    background-color: black;
+
     color: white;
     flex-direction: row;
 }
@@ -41,4 +41,24 @@ button {
     font-size: large;
     width: 150px;
     background-color: rgb(193, 167, 203);
+}
+
+#bio-pic {
+    width: 200px;
+}
+.bio-container {
+    display: flex;
+    justify-content: center;
+}
+.bio-section-items {
+    border: 2px white solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    width: 570px;
+    display: flex;
+}
+.bio-description {
+    padding-left: 15px;
 }
