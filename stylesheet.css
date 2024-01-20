@@ -75,3 +75,22 @@ button {
     padding-left: 15px;
 }
 
+#music-page-width {
+    width: 150px;
+    height: auto;
+}
+
+.music-container {
+    display: flex;
+    justify-content: center;
+}
+.music-section-items {
+    border: 2px white solid;
+    padding: 30px 10px 30px 10px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    width: 570px;
+    display: flex;
+    justify-content: center;
+}
