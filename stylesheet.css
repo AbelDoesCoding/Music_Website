@@ -1,0 +1,44 @@
+* {
+    margin: 10;
+    border: 10;
+    padding: 10;
+}
+
+body {
+    background-image: url("background-banner.png");
+  }
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+.header-items {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.menu-items {
+    border: 2px purple solid;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+}
+button {
+    font-size: large;
+    width: 150px;
+    background-color: rgb(193, 167, 203);
+}
