@@ -58,6 +58,9 @@ button {
 #bio-pic {
     width: 200px;
 }
+.bio-pic {
+    display: flex;
+}
 .bio-container {
     display: flex;
     justify-content: center;
@@ -147,3 +150,16 @@ button {
     padding-left: 30px;
 }
 
+.merch-container {
+    display: flex;
+    justify-content: center;
+}
+.merch-section-items {
+    border: 2px white solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    width: 770px;
+    display: flex;
+}
